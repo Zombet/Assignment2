@@ -1,0 +1,18 @@
+:root{ --bg:#f4f7fb; --card:#ffffff; --accent:#2b6cb0; --muted:#6b7280; }
+*{box-sizing:border-box}
+body{font-family:Arial, sans-serif;background:var(--bg);margin:0;padding:32px}
+.container{max-width:760px;margin:0 auto;background:var(--card);padding:28px;border-radius:12px;box-shadow:0 8px 30px rgba(15,23,42,0.08)}
+h1{margin-top:0;color:var(--accent)}
+.row{margin-bottom:14px}
+label{display:block;margin-bottom:6px;font-weight:600}
+input, select, textarea{width:100%;padding:10px;border:1px solid #d1d5db;border-radius:8px}
+.two-cols{display:flex;gap:12px}
+.two-cols > div{flex:1}
+.buttons{display:flex;gap:12px}
+button{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+button.secondary{background:#e6eef9;color:var(--accent)}
+.app-card{padding:22px;border-radius:10px;border:1px solid #e6eef9;background:white}
+.app-card h2{margin-top:0;color:var(--accent)}
+.app-card table{width:100%;border-collapse:collapse}
+.app-card td{padding:8px;border-bottom:1px dashed #eef2f7}
+.small{font-size:0.9rem;color:var(--muted)}
