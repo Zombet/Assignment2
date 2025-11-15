@@ -4,7 +4,7 @@
 1. Install XAMPP (or similar Apache+PHP stack).
 2. Put the project folder inside `xampp/htdocs/your-app` (or the equivalent web root).
 3. Start Apache from XAMPP control panel.
-4. Open `http://localhost/your-app/index.html` in the browser.
+4. Open `http://localhost/Assignment2/index.html` in the browser.
 
 
 # How to host (free PHP-capable hosting)
