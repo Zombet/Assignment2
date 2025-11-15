@@ -10,16 +10,8 @@
 # How to host (free PHP-capable hosting)
 
 
-Option A — 000webhost (free, PHP + file manager)
-- Create an account at 000webhost.com.
-- In the control panel, upload the project files (index.html, css/, js/, submit.php) into `public_html` using their file manager, or use FTP.
-- Ensure the `uploads` directory is writable (create it and set permission 755).
-- Visit the provided domain (e.g., `yourname.000webhostapp.com/index.html`).
+[website:](https://resumeform.rf.gd)
 
-
-Option B — Any cPanel / shared host
-- Upload files via File Manager or FTP to `public_html`.
-- Make sure PHP version >= 7.2 is enabled.
 
 
 Notes:
